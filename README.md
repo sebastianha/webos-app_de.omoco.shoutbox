@@ -41,6 +41,7 @@ With Global Shoutbox you can shout a message all over the world or just watch yo
 ##### Long Marketing description : 
 
 With Global Shoutbox you can shout a message all over the world or just watch your phone what others are shouting.
+
 ##### Short Marketing description : 
 
 With Global Shoutbox you can shout a message all over the world or just watch your phone what others are shouting.
