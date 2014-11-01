@@ -1,0 +1,264 @@
+#listeners {
+	position: fixed;
+	bottom: 53px;
+	left:40px;
+	width: 180px;
+	font-size:17px;
+}
+
+#locale {
+	position: fixed;
+	bottom: 53px;
+	right: 10px;
+	width: 60px;
+	height: 30px;
+	background-image:url();
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#star {
+	z-index: 20003;
+	position: fixed;
+	top: 58px;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+	background-image:url("../images/star.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	display:none;
+}
+
+#star2 {
+	z-index: 20003;
+	position: fixed;
+	top: 58px;
+	left: 10px;
+	width: 20px;
+	height: 20px;
+	background-image:url("../images/star.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	display:none;
+}
+
+#block {
+	position: fixed;
+	bottom: 53px;
+	left: 10px;
+	width: 30px;
+	height: 30px;
+	background-image:url("../images/block.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#friend {
+	position: fixed;
+	bottom: 53px;
+	right: 72px;
+	width: 30px;
+	height: 30px;
+	background-image:url("../images/heart.png");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#bottombg {
+	position: fixed;
+	bottom: 50px;
+	left: 8px;
+	width: 304px;
+	height: 40px;
+	background-image:url("../images/bottombg.png");
+	background-repeat: repeat-x;
+	background-position: left;
+}
+
+#shoutsb2 {
+	height:385px;
+	width:320px;
+	padding-top:8px;
+	padding-bottom:8px;
+
+	background-color:#e4e4e2;
+}
+
+#shoutsb {
+	height:385px;
+	width:304px;
+	vertical-align: middle;
+	display: table-cell;
+	
+	background-color:#e4e4e2;
+}
+
+#shouts {
+	padding:10px;
+	font-size:35px;
+	max-width: 280px;
+	word-wrap: break-word;
+}
+
+#lastshouts {
+	padding:10px;
+	display:none;
+}
+
+#lastshouts1a {
+	padding:3px;
+	background-color:#ff0000;
+}
+
+#lastshouts1 {
+	padding:2px;
+	font-size:23px;
+	background-color:#e4e4e2;
+	max-width: 280px;
+	word-wrap: break-word;
+}
+
+#lastshouts2a {
+	padding:2px;
+	background-color:#00ff00;
+}
+
+#lastshouts2 {
+	padding:1px;
+	font-size:17px;
+	background-color:#e4e4e2;
+	max-width: 280px;
+	word-wrap: break-word;
+}
+
+#lastshouts3a {
+	padding:2px;
+	background-color:#0000ff;
+}
+
+#lastshouts3 {
+	padding:1px;
+	font-size:17px;
+	background-color:#e4e4e2;
+	max-width: 280px;
+	word-wrap: break-word;
+}
+
+#lastshouts4a {
+	padding:2px;
+	background-color:#ffffff;
+}
+
+#lastshouts4 {
+	padding:1px;
+	font-size:17px;
+	background-color:#e4e4e2;
+	max-width: 280px;
+	word-wrap: break-word;
+}
+
+#shoutsbL {
+	z-index: 20000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	width:480px;
+	height:320px;
+	background-color:#000000;
+	color:#ffffff;
+	padding:5px;
+	
+	display: none;
+}
+
+#shoutsbL2 {
+	z-index: 20001;
+    position: fixed;
+    left: 8px;
+    top: 8px;
+    bottom: 8px;
+    right: 8px;
+	width:464px;
+	height:304px;
+	background-color:#000000;
+	color:#ffffff;
+	
+	display: block;
+}
+
+#shoutsL {
+	padding:10px;
+	font-size:35px;
+
+	background-color:#000000;
+	color:#ffffff;
+}
+
+#listenersL {
+	z-index: 20002;
+	position: fixed;
+	bottom: 8px;
+	left:8px;
+	width: 440px;
+	padding:10px;
+	font-size:17px;
+	
+	background-color:#000000;
+	color:#ffffff;
+	
+	display: none;
+}
+
+#localeL {
+	z-index: 20003;
+	position: fixed;
+	bottom: 11px;
+	right: 12px;
+	width: 90px;
+	height: 45px;
+	background-image:url();
+	background-repeat: no-repeat;
+	background-position: right;
+	
+	display: none;
+}
+
+#blocksend {
+	z-index: 10001;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 320px;
+	height:51px;
+	opacity:0.8;
+	background-color:#cccccc;
+	color:#777777;
+	
+	display: none;
+}
+
+#messageContainer {
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		width: 320px;
+}
+
+.stuck.sendButton {
+		background: url(../images/sendpress.png) top left no-repeat;
+		background: url(../images/send.png) top left no-repeat;
+		width: 48px;
+		padding: 0;
+		margin: 0px;
+		height: 48px;
+		position: absolute;
+		bottom: 3px;
+		right: 6px;
+}
+
+.stuck.sendButton.selected {
+		background: url(../images/sendpress.png) top left no-repeat;
+}

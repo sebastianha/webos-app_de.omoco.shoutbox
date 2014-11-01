@@ -1,0 +1,9 @@
+{
+	"id": "de.omoco.shoutbox.beta",
+	"version": "1.0.8",
+	"vendor": "shoutbox.omoco.de",
+	"type": "web",
+	"main": "index.html",
+	"title": "Global Shoutbox Beta",
+	"icon": "icon.png"
+}
