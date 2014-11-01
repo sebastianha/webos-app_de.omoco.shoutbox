@@ -1,5 +1,5 @@
-webOS App – Crack Your Display (de.omoco.cyd)
-=============================================
+webOS App – Global Shoutbox (de.omoco.shoutbox)
+===============================================
 
 - Package ID : 	 de.omoco.shoutbox 
 - Version : 	 1.0.8 
